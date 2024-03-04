@@ -36,7 +36,7 @@ if (loginForm) {
     localStorage.setItem("cardId", cardId.value);
     localStorage.setItem("address", address.value);
 
-    window.location.href = "http://127.0.0.1:5500//form.html";
+    window.location.href = "form.html";
   });
 }
 // end login
@@ -343,7 +343,7 @@ function submitQuizz() {
       <p class="my-2">Căn cước công dân: <b>${cardId}</b></p>
       <p class="my-2">Địa chỉ: <b>${address}</b></p>
       <p class="my-2">Điểm: <b>${result.score} / 40</b></p>
-      <a href="http://127.0.0.1:5500//index.html" class="btn btn-danger" style="margin-left: 170px;">HOME</a>
+      <a href="index.html" class="btn btn-danger" style="margin-left: 170px;">HOME</a>
     </div>`;
   resultContainer.innerHTML += html;
 }
